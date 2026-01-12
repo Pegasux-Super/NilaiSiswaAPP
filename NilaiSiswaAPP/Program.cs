@@ -7,4 +7,9 @@ Console.Write("input Nama: ");
 nama = Console.ReadLine();
 
 Console.Write("Input Nilai siswa: "); 
-nilai = int.Parse(Console.ReadLine()); 
+nilai = int.Parse(Console.ReadLine());
+
+if (nilai >= 75)
+    Console.WriteLine("Selamat anda lulus!");
+
+else Console.WriteLine("Maaf, Anda belum "); 
